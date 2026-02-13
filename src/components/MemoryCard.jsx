@@ -61,7 +61,7 @@ const MemoryCard = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="playwrite-cu-guides-regular mb-16 text-4xl font-semibold tracking-wide
+        className="edu-nsw-act-cursive-regular mb-16 text-4xl font-semibold tracking-wide
              text-white backdrop-blur-xl"
       >
         Message for Renu..
@@ -136,7 +136,7 @@ const MemoryCard = () => {
                           duration: 0.5,
                           delay: index * 0.4,
                         }}
-                        className="text-violet-300 text-lg font-semibold playwrite-cu-guides-regular "
+                        className="text-violet-300 text-lg font-semibold edu-nsw-act-cursive-regular "
                       >
                         {line}
                       </motion.p>

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+CU+Guides&family=Poppins&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+CU+Guides&family=Poppins:wght@400;600&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
 @import "tailwindcss";
 *{
   box-sizing: border-box;
@@ -66,8 +66,9 @@ body{
   transform: rotateY(180deg);
 }
 
-.playwrite-cu-guides-regular {
-  font-family: "Playwrite CU Guides", cursive;
+.edu-nsw-act-cursive-regular {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }

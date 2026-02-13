@@ -53,7 +53,7 @@ const scrollTo = (id) => {
         {/* Left */}
         <div
           onClick={() => scrollTo("home")}
-          className={`playwrite-cu-guides-regular text-xl font-semibold cursor-pointer transition hover:text-pink-300 ${
+          className={`edu-nsw-act-cursive-regular text-xl font-semibold cursor-pointer transition hover:text-pink-300 ${
             active === "home" ? "text-pink-300 scale-110" : "text-white"
           }`}
         >
@@ -64,7 +64,7 @@ const scrollTo = (id) => {
         <div className="hidden md:flex gap-8 text-white text-lg">
           <button
             onClick={() => scrollTo("gallery")}
-            className={`playwrite-cu-guides-regular cursor-pointer transition ${
+            className={`edu-nsw-act-cursive-regular cursor-pointer transition ${
               active === "gallery"
                 ? "text-pink-300 scale-110"
                 : "text-white hover:text-pink-200"
@@ -75,7 +75,7 @@ const scrollTo = (id) => {
 
           <button
             onClick={() => scrollTo("message")}
-            className={`playwrite-cu-guides-regular cursor-pointer hover:text-pink-300 transition ${
+            className={`edu-nsw-act-cursive-regular cursor-pointer hover:text-pink-300 transition ${
               active === "message" ? "text-pink-300 scale-110" : "text-white"
             }`}
           >
@@ -105,7 +105,7 @@ const scrollTo = (id) => {
             transition={{ duration: 0.3 }}
             className="md:hidden bg-white/10 backdrop-blur-xl border-t border-white/20"
           >
-            <div className="playwrite-cu-guides-regular flex flex-col items-center py-6 gap-6 text-white text-lg">
+            <div className="edu-nsw-act-cursive-regular flex flex-col items-center py-6 gap-6 text-white text-lg">
               <button onClick={() => scrollTo("gallery")}>Gallery ✨</button>
 
               <button onClick={() => scrollTo("message")}>Message 💌</button>

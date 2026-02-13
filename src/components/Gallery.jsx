@@ -33,7 +33,10 @@ const Gallery = () => {
   );
 
   return (
-    <section id="gallery" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section
+      id="gallery"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+    >
       {/* Background */}
       <motion.div
         animate={{
@@ -52,7 +55,7 @@ const Gallery = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="playwrite-cu-guides-regular mb-16 text-4xl font-semibold tracking-wide
+        className="edu-nsw-act-cursive-regular mb-16 text-4xl font-semibold tracking-wide
              text-white backdrop-blur-xl"
       >
         Memories
