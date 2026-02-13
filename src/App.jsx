@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
-import Proposal from './components/proposal'
+import Proposal from './components/TempProposal'
 import MainPage from './pages/MainPage'
 
 const App = () => {
