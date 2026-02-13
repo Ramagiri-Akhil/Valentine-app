@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+CU+Guides&family=Poppins&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+CU+Guides&family=Poppins:wght@400;600&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(
+    100deg,
+    #f29aae,
+    #c47be4,
+    #a865dd,
+    #7132ca,
+    #4b25b8,
+    #301ca0
+  );
+  background-size: 350% 350%;
+  animation: gradientmove 40s ease infinite;
+}
+@keyframes gradientmove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+.marquee {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee-track span {
+  font-size: 10rem;
+  font-weight: 800;
+  opacity: 0.1;
+  white-space: nowrap;
+  padding-right: 4rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.perspective {
+  perspective: 1200px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.playwrite-cu-guides-regular {
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
