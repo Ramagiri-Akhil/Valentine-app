@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from "@vercel/analytics/next";
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Proposal from './components/Proposal'
 import MainPage from './pages/MainPage'
